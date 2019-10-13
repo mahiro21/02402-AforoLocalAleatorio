@@ -28,7 +28,7 @@ public final class Main {
     public static void main(String[] args) {
 
         // Generar dato
-        int aforo = RND.nextInt(100 - 0 + 1) + 1;
+        int aforo = RND.nextInt(60 - 1 + 1) + 1;
 
         System.out.printf("Aforo actual del local ....: %d.%n", aforo);
     }
